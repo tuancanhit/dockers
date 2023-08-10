@@ -6,3 +6,7 @@
 !rabbitmq/.build/rabbitmq/data/.gitkeep
 /rabbitmq/.build/rabbitmq/logs
 !/rabbitmq/.build/rabbitmq/logs/.gitkeep
+/mysql
+!/mysql/docker-compose.yml
+!/mysql/data/sync/.gitkeep
+!/mysql/data/mysql/.gitkeep
