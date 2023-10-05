@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - MYSQL_USER=phpmyadmin_user
+      - MYSQL_PASSWORD=admin@123
+      - MYSQL_ROOT_PASSWORD=admin@123
+      - PMA_HOST=host.docker.internal
+      - PMA_PORT=3306
+    volumes:
+      - ./phpmyadmin/php-phpmyadmin.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+    ports:
+      - 33061:80
