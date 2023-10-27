@@ -1,1 +1,1 @@
-Docker for macOS - already work on M1Pro, each service have specific folder with file docker-compose.yml
+# macOS Docker services - All services already work on Apple M1 Pro

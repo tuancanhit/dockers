@@ -13,4 +13,4 @@ services:
     volumes:
       - ./phpmyadmin/php-phpmyadmin.ini:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
     ports:
-      - 33061:80
+      - "33061:80"
