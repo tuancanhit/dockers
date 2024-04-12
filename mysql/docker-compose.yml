@@ -9,8 +9,10 @@ services:
             --collation-server=utf8mb4_unicode_ci
             --default-authentication-plugin=mysql_native_password
         volumes:
+            # sudo chmod -R 777 data
             - ./data/mysql:/docker-entrypoint-initdb.d
             - ./data/sync:/var/sync
+            - ./data/mysql_data:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: admin
             MYSQL_USER: admin

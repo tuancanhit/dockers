@@ -10,6 +10,7 @@
 !/mysql/docker-compose.yml
 !/mysql/data/sync/.gitkeep
 !/mysql/data/mysql/.gitkeep
+!/mysql/data/mysql_data/.gitkeep
 /elasticsearch7/data/
 !/elasticsearch7/data/.gitkeep
 /elasticsearch6/data/
