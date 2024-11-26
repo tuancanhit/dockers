@@ -15,3 +15,4 @@
 !/elasticsearch7/data/.gitkeep
 /elasticsearch6/data/
 !/elasticsearch6/data/.gitkeep
+/*/.idea
